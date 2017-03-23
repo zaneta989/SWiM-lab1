@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Moja aplikacja</string>
     <string name="tekst1">Żaneta Larwa!</string>
-    <string name="tekst2">Aktywno 1 - przycisk 1</string>
-    <string name="tekst3">Aktywność 1- przycisk2</string>
+    <string name="tekst2">Aktywność 1 - przycisk 1</string>
+    <string name="tekst3">Aktywność 1- przycisk 2</string>
     <string name="tekst4">Przyciśnij mnie dłużej...</string>
-
+    <string name="tekst5">Aby cofnąć użyj paska tytułu lub przycisku Powrót</string>
+    <string name="tekst6">Powrót</string>
 </resources>
 
 

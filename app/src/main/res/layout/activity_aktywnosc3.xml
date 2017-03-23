@@ -9,18 +9,20 @@
     tools:context="com.example.zaneta.mojaaplikacja.Aktywnosc3">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="197dp"
         android:layout_gravity="center_horizontal"
         android:padding="20dp"
-        android:text="@string/tekst5"
 
-        android:textSize="50sp" />
+        android:text="@string/tekst5"
+        android:textSize="50sp"
+        android:layout_weight="1.03" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="161dp"
-        android:layout_height="match_parent"
+        android:layout_height="128dp"
         android:layout_gravity="right"
         android:onClick="powrotDo1"
         android:text="@string/tekst6" />

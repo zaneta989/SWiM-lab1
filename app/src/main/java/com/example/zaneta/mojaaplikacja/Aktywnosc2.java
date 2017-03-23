@@ -10,13 +10,13 @@ public class Aktywnosc2 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aktywnosc2);
+
         View mojeOkno2 = findViewById(R.id.mojeOkno2);
-        mojeOkno2.setOnLongClickListener(new View.OnLongClickListener()
-        { public boolean onLongClick(View v)
-            {
-                        finish();
-                        return false;
-            }
-        } );
+        mojeOkno2.setOnLongClickListener( new View.OnLongClickListener()
+                {
+                    public boolean onLongClick(View v) {
+                    finish();
+                    return false; }
+                } );
     }
 }

@@ -23,4 +23,8 @@ public class Aktywnosc1 extends AppCompatActivity {
         final Intent intencja2 = new Intent(this,Aktywnosc2.class);
         startActivity(intencja2);
     }
+    public void uruchomTrzy(View view) {
+        final Intent intencja3 = new Intent(this,Aktywnosc3.class);
+        startActivity(intencja3);
+    }
 }
